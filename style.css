@@ -1,0 +1,38 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url('fonts/FunnyKid.TTF');
+}
+
+@font-face {
+  font-family: Train;
+  src: url('fonts/ToyTrain.TTF');
+}
+
+.title{
+	font-family: myFirstFont;
+	font-size: 100px;
+	font-variant-caps: all;
+	background: #58c0df;
+	padding: 45px;
+	background-image: url('images/bg1.jpg');
+	color: #000000;
+	opacity: 80%;
+}
+
+td, th, tr {
+  padding: 5px;
+  font-size: 1.5rem;
+  text-align:center;
+}
+
+.btn{
+ 	width: 150px;
+}
+
+.heading{
+	text-align: center;
+	font-size: 50px;
+	font-variant-caps: all;
+	padding: 20px;
+ 	font-family: myFirstFont;
+}

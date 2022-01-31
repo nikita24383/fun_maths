@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fun maths</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container-fluid col-sm-12 title">
+		<u><center><div>FUN MATHS</div></center></u>
+	</div>
+	<div class="container-fluid col-sm-6 numbers">
+		<div class="heading">Numbers</div>
+		<div class="table-responsive">          
+		  <table class="table table-sm">
+		    <thead>
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">English</th>
+					<th scope="col">#</th>
+					<th scope="col">Marathi</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="one.play()">One</button></td>
+					<th scope="row">१</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="one_m.play()">एक</button></td>
+				</tr>      
+				<tr>
+					<th scope="row">2</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="two.play()">Two</button></td>
+					<th scope="row">२</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="two_m.play()">दोन</button></td>
+				</tr>
+				<tr>
+					<th scope="row">3</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="three.play()">Three</button></td>
+					<th scope="row">३</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="three_m.play()">तीन</button></td>
+				</tr>
+				<tr>
+					<th scope="row">4</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="four.play()">Four</button></td>
+					<th scope="row">४</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="four_m.play()">चार</button></td>
+				</tr>
+				<tr>
+					<th scope="row">5</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="five.play()">Five</button></td>
+					<th scope="row">५</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="five_m.play()">पाच</button></td>
+				</tr>
+				<tr>
+					<th scope="row">6</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="six.play()">Six</button></td>
+					<th scope="row">६</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="six_m.play()">सहा</button></td>
+				</tr>
+				<tr>
+					<th scope="row">7</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="seven.play()">Seven</button></td>
+					<th scope="row">७</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="seven_m.play()">सात</button></td>
+				</tr>
+				<tr>
+					<th scope="row">8</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="eight.play()">Eight</button></td>
+					<th scope="row">८</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="eight_m.play()">आठ</button></td>
+				</tr>
+				<tr>
+					<th scope="row">9</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="nine.play()">Nine</button></td>
+					<th scope="row">९</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="nine_m.play()">नऊ</button></td>
+				</tr>
+				<tr>
+					<th scope="row">10</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="ten.play()">Ten</button></td>
+					<th scope="row">१०</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="ten_m.play()">दहा</button></td>
+				</tr>
+				<tr>
+					<th scope="row">11</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="eleven.play()">Eleven</button></td>
+					<th scope="row">११</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="eleven_m.play()">अकरा</button></td>
+				</tr>
+				<tr>
+					<th scope="row">12</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="twelve.play()">Twelve</button></td>
+					<th scope="row">१२</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="twelve_m.play()">बारा</button></td>
+				</tr>
+				<tr>
+					<th scope="row">13</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="thirteen.play()">Thirteen</button></td>
+					<th scope="row">१३</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="thirteen_m.play()">तेरा</button></td>
+				</tr>
+				<tr>
+					<th scope="row">14</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="fourteen.play()">Fourteen</button></td>
+					<th scope="row">१४</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="fourteen_m.play()">चौदा</button></td>
+				</tr>
+				<tr>
+					<th scope="row">15</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="fifteen.play()">Fifteen</button></td>
+					<th scope="row">१५</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="fifteen_m.play()">पंधरा</button></td>
+				</tr>
+				<tr>
+					<th scope="row">16</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="sixteen.play()">Sixteen</button></td>
+					<th scope="row">१६</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="sixteen_m.play()">सोळा</button></td>
+				</tr>
+				<tr>
+					<th scope="row">17</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="seventeen.play()">Seventeen</button></td>
+					<th scope="row">१७</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="seventeen_m.play()">सतरा</button></td>
+				</tr>
+				<tr>
+					<th scope="row">18</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="eighteen.play()">Eighteen</button></td>
+					<th scope="row">१८</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="eighteen_m.play()">अठरा</button></td>
+				</tr>
+				<tr>
+					<th scope="row">19</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="nineteen.play()">Nineteen</button></td>
+					<th scope="row">१९</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="nineteen_m.play()">एकोनवीस</button></td>
+				</tr>
+				<tr>
+					<th scope="row">20</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="twenty.play()">Twenty</button></td>
+					<th scope="row">२०</th>
+					<td><button type="button" class="btn btn-outline-dark" style="font-size: 1.5rem;" onclick="twenty_m.play()">वीस</button></td>
+				</tr>
+			</tbody>
+		  </table>
+		</div>
+	</div>
+
+	<div class="container-fluid col-sm-6 operations">
+		<div class="heading">Basic maths operation</div>
+	</div>
+</body>
+	<footer>
+		<!-- <div class="footer">
+			<p>Developed and Designed by <a href="https://www.github.com/nikita24383">Nikita Sarode</a></p>
+		</div>
+		<nav class="navbar navbar-inverse navbar-fixed-bottom">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">WebSiteName</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Home</a></li>
+		      <li><a href="#">Page 1</a></li>
+		      <li><a href="#">Page 2</a></li>
+		      <li><a href="#">Page 3</a></li>
+		    </ul>
+		  </div>
+		</nav> -->
+		<script type="text/javascript" src="work.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	</footer>
+</html>
