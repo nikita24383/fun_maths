@@ -22,9 +22,35 @@ td, th, tr {
 }
 
 .heading{
+	text-decoration: underline;
 	text-align: center;
 	font-size: 50px;
 	font-variant-caps: all;
-	padding: 20px;
+	padding: 10px;
  	font-family: 'Fruktur', cursive;
+}
+
+
+/*basic operaions*/
+.equation{
+	text-align: center;
+    display: flex;
+    font-size: 5rem;
+    align-items: center;
+    margin: 0px 60px;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.options{
+	justify-content: space-around;
+	/*box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.9);*/
+}
+
+#answer-options{
+	margin: 10% 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
