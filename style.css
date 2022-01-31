@@ -1,15 +1,7 @@
-@font-face {
-  font-family: myFirstFont;
-  src: url('fonts/FunnyKid.TTF');
-}
-
-@font-face {
-  font-family: Train;
-  src: url('fonts/ToyTrain.TTF');
-}
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
 
 .title{
-	font-family: myFirstFont;
+	font-family: 'Fruktur', cursive;
 	font-size: 100px;
 	font-variant-caps: all;
 	background: #58c0df;
@@ -34,5 +26,5 @@ td, th, tr {
 	font-size: 50px;
 	font-variant-caps: all;
 	padding: 20px;
- 	font-family: myFirstFont;
+ 	font-family: 'Fruktur', cursive;
 }
