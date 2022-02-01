@@ -4,11 +4,20 @@
 	font-family: 'Fruktur', cursive;
 	font-size: 100px;
 	font-variant-caps: all;
-	background: #58c0df;
+	/*background: #58c0df;*/
 	padding: 45px;
-	background-image: url('images/bg1.jpg');
+	/*background-image: url('images/bg1.jpg');*/
 	color: #000000;
 	opacity: 80%;
+	box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.9);
+}
+
+body{
+	background-image: url('images/doodle.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }
 
 td, th, tr {
@@ -44,7 +53,6 @@ td, th, tr {
 
 .options{
 	justify-content: space-around;
-	/*box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.9);*/
 }
 
 #answer-options{
